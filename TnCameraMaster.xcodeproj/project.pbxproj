@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B23498862C8AFABA00E6EECB /* TnIosBase in Frameworks */ = {isa = PBXBuildFile; productRef = B23498852C8AFABA00E6EECB /* TnIosBase */; };
+		B23498892C8AFAC800E6EECB /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B23498882C8AFAC800E6EECB /* TnCameraBase */; };
 		B24BB2332C8A97190045D6FA /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B24BB2322C8A97190045D6FA /* TnCameraBase */; };
 		B24BB2392C8A9AD90045D6FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B24BB2372C8A9AD90045D6FA /* Localizable.strings */; };
 		B24BB24D2C8A9B3D0045D6FA /* CameraAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB2412C8A9B3D0045D6FA /* CameraAppView.swift */; };
-		B24BB24E2C8A9B3D0045D6FA /* TestBluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB2422C8A9B3D0045D6FA /* TestBluetoothView.swift */; };
-		B24BB2512C8A9B3D0045D6FA /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB2452C8A9B3D0045D6FA /* Test.swift */; };
 		B24BB2522C8A9B3D0045D6FA /* TnCameraMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB2472C8A9B3D0045D6FA /* TnCameraMasterApp.swift */; };
 		B24BB25A2C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB2592C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift */; };
 		B24BB25C2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB25B2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift */; };
-		B2591E9C2C8AF24B00B76A9E /* TnIosBase in Frameworks */ = {isa = PBXBuildFile; productRef = B2591E9B2C8AF24B00B76A9E /* TnIosBase */; };
 		B2631F4E2C8A950000B71BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2631F4D2C8A950000B71BAA /* Assets.xcassets */; };
 		B2631F512C8A950000B71BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2631F502C8A950000B71BAA /* Preview Assets.xcassets */; };
-		B2FD83B52C8AEC3F00F10F13 /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B2FD83B42C8AEC3F00F10F13 /* TnCameraBase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B24BB2382C8A9AD90045D6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B24BB23A2C8A9AF60045D6FA /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B24BB2412C8A9B3D0045D6FA /* CameraAppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraAppView.swift; sourceTree = "<group>"; };
-		B24BB2422C8A9B3D0045D6FA /* TestBluetoothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBluetoothView.swift; sourceTree = "<group>"; };
-		B24BB2452C8A9B3D0045D6FA /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		B24BB2472C8A9B3D0045D6FA /* TnCameraMasterApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnCameraMasterApp.swift; sourceTree = "<group>"; };
 		B24BB2592C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TnCameraAppViewProxyServerModel.swift; sourceTree = "<group>"; };
 		B24BB25B2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TnCameraAppViewProxyServer.swift; sourceTree = "<group>"; };
@@ -40,9 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2591E9C2C8AF24B00B76A9E /* TnIosBase in Frameworks */,
 				B24BB2332C8A97190045D6FA /* TnCameraBase in Frameworks */,
-				B2FD83B52C8AEC3F00F10F13 /* TnCameraBase in Frameworks */,
+				B23498862C8AFABA00E6EECB /* TnIosBase in Frameworks */,
+				B23498892C8AFAC800E6EECB /* TnCameraBase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +73,6 @@
 				B24BB25B2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift */,
 				B24BB2592C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift */,
 				B24BB2412C8A9B3D0045D6FA /* CameraAppView.swift */,
-				B24BB2422C8A9B3D0045D6FA /* TestBluetoothView.swift */,
-				B24BB2452C8A9B3D0045D6FA /* Test.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -147,8 +141,8 @@
 			name = TnCameraMaster;
 			packageProductDependencies = (
 				B24BB2322C8A97190045D6FA /* TnCameraBase */,
-				B2FD83B42C8AEC3F00F10F13 /* TnCameraBase */,
-				B2591E9B2C8AF24B00B76A9E /* TnIosBase */,
+				B23498852C8AFABA00E6EECB /* TnIosBase */,
+				B23498882C8AFAC800E6EECB /* TnCameraBase */,
 			);
 			productName = TnCameraMaster;
 			productReference = B2631F442C8A94FF00B71BAA /* TnCameraMaster.app */;
@@ -180,8 +174,8 @@
 			);
 			mainGroup = B2631F3B2C8A94FE00B71BAA;
 			packageReferences = (
-				B2FD83B32C8AEC3F00F10F13 /* XCRemoteSwiftPackageReference "TnCameraBase" */,
-				B2591E9A2C8AF24B00B76A9E /* XCRemoteSwiftPackageReference "TnIosBase" */,
+				B23498842C8AFABA00E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */,
+				B23498872C8AFAC800E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */,
 			);
 			productRefGroup = B2631F452C8A94FF00B71BAA /* Products */;
 			projectDirPath = "";
@@ -211,11 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B24BB25C2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift in Sources */,
-				B24BB2512C8A9B3D0045D6FA /* Test.swift in Sources */,
 				B24BB24D2C8A9B3D0045D6FA /* CameraAppView.swift in Sources */,
 				B24BB25A2C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift in Sources */,
 				B24BB2522C8A9B3D0045D6FA /* TnCameraMasterApp.swift in Sources */,
-				B24BB24E2C8A9B3D0045D6FA /* TestBluetoothView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +439,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B2591E9A2C8AF24B00B76A9E /* XCRemoteSwiftPackageReference "TnIosBase" */ = {
+		B23498842C8AFABA00E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ThinhNguyenRS/TnIosBase";
 			requirement = {
@@ -455,7 +447,7 @@
 				kind = branch;
 			};
 		};
-		B2FD83B32C8AEC3F00F10F13 /* XCRemoteSwiftPackageReference "TnCameraBase" */ = {
+		B23498872C8AFAC800E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ThinhNguyenRS/TnCameraBase";
 			requirement = {
@@ -466,18 +458,18 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B24BB2322C8A97190045D6FA /* TnCameraBase */ = {
+		B23498852C8AFABA00E6EECB /* TnIosBase */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = TnCameraBase;
-		};
-		B2591E9B2C8AF24B00B76A9E /* TnIosBase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B2591E9A2C8AF24B00B76A9E /* XCRemoteSwiftPackageReference "TnIosBase" */;
+			package = B23498842C8AFABA00E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */;
 			productName = TnIosBase;
 		};
-		B2FD83B42C8AEC3F00F10F13 /* TnCameraBase */ = {
+		B23498882C8AFAC800E6EECB /* TnCameraBase */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B2FD83B32C8AEC3F00F10F13 /* XCRemoteSwiftPackageReference "TnCameraBase" */;
+			package = B23498872C8AFAC800E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */;
+			productName = TnCameraBase;
+		};
+		B24BB2322C8A97190045D6FA /* TnCameraBase */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = TnCameraBase;
 		};
 /* End XCSwiftPackageProductDependency section */

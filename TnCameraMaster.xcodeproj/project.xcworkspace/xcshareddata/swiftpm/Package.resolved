@@ -7,7 +7,7 @@
       "location" : "https://github.com/ThinhNguyenRS/TnCameraBase",
       "state" : {
         "branch" : "main",
-        "revision" : "565769b94ac3a689f687087a5ea7467a08407126"
+        "revision" : "f2b1cf3105b793981b08c05962534cf1b88ef12c"
       }
     },
     {
@@ -16,7 +16,7 @@
       "location" : "https://github.com/ThinhNguyenRS/TnIosBase",
       "state" : {
         "branch" : "main",
-        "revision" : "38f3bd11140c33e088ca34294ad635a862bc7ccf"
+        "revision" : "66006b6cb2af54c62036e66241f3b7a0fdc2f268"
       }
     }
   ],
