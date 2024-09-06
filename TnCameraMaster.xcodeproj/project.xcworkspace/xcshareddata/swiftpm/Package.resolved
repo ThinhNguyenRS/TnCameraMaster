@@ -1,0 +1,24 @@
+{
+  "originHash" : "4b75b8351e3cb3bd7401cbe70d31d0f2aa0fb5e62221e7dc03d387c1cf57bbdb",
+  "pins" : [
+    {
+      "identity" : "tncamerabase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ThinhNguyenRS/TnCameraBase",
+      "state" : {
+        "branch" : "main",
+        "revision" : "565769b94ac3a689f687087a5ea7467a08407126"
+      }
+    },
+    {
+      "identity" : "tniosbase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ThinhNguyenRS/TnIosBase",
+      "state" : {
+        "branch" : "main",
+        "revision" : "38f3bd11140c33e088ca34294ad635a862bc7ccf"
+      }
+    }
+  ],
+  "version" : 3
+}
