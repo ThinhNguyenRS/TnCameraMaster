@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B23498862C8AFABA00E6EECB /* TnIosBase in Frameworks */ = {isa = PBXBuildFile; productRef = B23498852C8AFABA00E6EECB /* TnIosBase */; };
-		B23498892C8AFAC800E6EECB /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B23498882C8AFAC800E6EECB /* TnCameraBase */; };
-		B24BB2332C8A97190045D6FA /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B24BB2322C8A97190045D6FA /* TnCameraBase */; };
+		B2280AE92C968FA4007250E0 /* TestAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2280AE82C968FA4007250E0 /* TestAsync.swift */; };
+		B24271432CB9523B000149A0 /* BinaryCodable in Frameworks */ = {isa = PBXBuildFile; productRef = B24271422CB9523B000149A0 /* BinaryCodable */; };
 		B24BB2392C8A9AD90045D6FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B24BB2372C8A9AD90045D6FA /* Localizable.strings */; };
-		B24BB24D2C8A9B3D0045D6FA /* CameraAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB2412C8A9B3D0045D6FA /* CameraAppView.swift */; };
 		B24BB2522C8A9B3D0045D6FA /* TnCameraMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB2472C8A9B3D0045D6FA /* TnCameraMasterApp.swift */; };
-		B24BB25A2C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB2592C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift */; };
-		B24BB25C2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB25B2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift */; };
+		B256D9762C93C08A004CE461 /* TestAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B256D9752C93C08A004CE461 /* TestAppView.swift */; };
 		B2631F4E2C8A950000B71BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2631F4D2C8A950000B71BAA /* Assets.xcassets */; };
 		B2631F512C8A950000B71BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2631F502C8A950000B71BAA /* Preview Assets.xcassets */; };
+		B299B7242CB97FBC00708DD1 /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B299B7232CB97FBC00708DD1 /* TnCameraBase */; };
+		B299B7272CB9803B00708DD1 /* TnIosBase in Frameworks */ = {isa = PBXBuildFile; productRef = B299B7262CB9803B00708DD1 /* TnIosBase */; };
+		B29EB3A62CA407EB00CDB30B /* TestViewUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29EB3A52CA407EB00CDB30B /* TestViewUpdates.swift */; };
+		B2D0FB2E2CB75D5300BDDAAA /* TnBinaryCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0FB2D2CB75D5300BDDAAA /* TnBinaryCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2280AE82C968FA4007250E0 /* TestAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsync.swift; sourceTree = "<group>"; };
 		B24BB2382C8A9AD90045D6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B24BB23A2C8A9AF60045D6FA /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B24BB2412C8A9B3D0045D6FA /* CameraAppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraAppView.swift; sourceTree = "<group>"; };
 		B24BB2472C8A9B3D0045D6FA /* TnCameraMasterApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TnCameraMasterApp.swift; sourceTree = "<group>"; };
-		B24BB2592C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TnCameraAppViewProxyServerModel.swift; sourceTree = "<group>"; };
-		B24BB25B2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TnCameraAppViewProxyServer.swift; sourceTree = "<group>"; };
+		B256D9752C93C08A004CE461 /* TestAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppView.swift; sourceTree = "<group>"; };
 		B2631F442C8A94FF00B71BAA /* TnCameraMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TnCameraMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2631F4D2C8A950000B71BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2631F502C8A950000B71BAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B29EB3A52CA407EB00CDB30B /* TestViewUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewUpdates.swift; sourceTree = "<group>"; };
+		B2D0FB2D2CB75D5300BDDAAA /* TnBinaryCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TnBinaryCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,19 +38,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B24BB2332C8A97190045D6FA /* TnCameraBase in Frameworks */,
-				B23498862C8AFABA00E6EECB /* TnIosBase in Frameworks */,
-				B23498892C8AFAC800E6EECB /* TnCameraBase in Frameworks */,
+				B299B7272CB9803B00708DD1 /* TnIosBase in Frameworks */,
+				B299B7242CB97FBC00708DD1 /* TnCameraBase in Frameworks */,
+				B24271432CB9523B000149A0 /* BinaryCodable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2280AE72C968F95007250E0 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				B2280AE82C968FA4007250E0 /* TestAsync.swift */,
+				B29EB3A52CA407EB00CDB30B /* TestViewUpdates.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		B24BB2342C8A98A70045D6FA /* src */ = {
 			isa = PBXGroup;
 			children = (
-				B24BB2482C8A9B3D0045D6FA /* main */,
+				B2DD4CA22CAB08DC00B0A002 /* data */,
+				B2280AE72C968F95007250E0 /* test */,
+				B24BB23C2C8A9B3D0045D6FA /* controllers */,
+				B24BB23E2C8A9B3D0045D6FA /* models */,
+				B24BB2462C8A9B3D0045D6FA /* views */,
+				B24BB2472C8A9B3D0045D6FA /* TnCameraMasterApp.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -63,6 +79,7 @@
 		B24BB23E2C8A9B3D0045D6FA /* models */ = {
 			isa = PBXGroup;
 			children = (
+				B2D0FB2D2CB75D5300BDDAAA /* TnBinaryCodable.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -70,22 +87,9 @@
 		B24BB2462C8A9B3D0045D6FA /* views */ = {
 			isa = PBXGroup;
 			children = (
-				B24BB25B2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift */,
-				B24BB2592C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift */,
-				B24BB2412C8A9B3D0045D6FA /* CameraAppView.swift */,
+				B256D9752C93C08A004CE461 /* TestAppView.swift */,
 			);
 			path = views;
-			sourceTree = "<group>";
-		};
-		B24BB2482C8A9B3D0045D6FA /* main */ = {
-			isa = PBXGroup;
-			children = (
-				B24BB23C2C8A9B3D0045D6FA /* controllers */,
-				B24BB23E2C8A9B3D0045D6FA /* models */,
-				B24BB2462C8A9B3D0045D6FA /* views */,
-				B24BB2472C8A9B3D0045D6FA /* TnCameraMasterApp.swift */,
-			);
-			path = main;
 			sourceTree = "<group>";
 		};
 		B2631F3B2C8A94FE00B71BAA = {
@@ -123,6 +127,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B2DD4CA22CAB08DC00B0A002 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +151,9 @@
 			);
 			name = TnCameraMaster;
 			packageProductDependencies = (
-				B24BB2322C8A97190045D6FA /* TnCameraBase */,
-				B23498852C8AFABA00E6EECB /* TnIosBase */,
-				B23498882C8AFAC800E6EECB /* TnCameraBase */,
+				B24271422CB9523B000149A0 /* BinaryCodable */,
+				B299B7232CB97FBC00708DD1 /* TnCameraBase */,
+				B299B7262CB9803B00708DD1 /* TnIosBase */,
 			);
 			productName = TnCameraMaster;
 			productReference = B2631F442C8A94FF00B71BAA /* TnCameraMaster.app */;
@@ -174,8 +185,9 @@
 			);
 			mainGroup = B2631F3B2C8A94FE00B71BAA;
 			packageReferences = (
-				B23498842C8AFABA00E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */,
-				B23498872C8AFAC800E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */,
+				B24271412CB9523B000149A0 /* XCRemoteSwiftPackageReference "BinaryCodable" */,
+				B299B7222CB97FBC00708DD1 /* XCRemoteSwiftPackageReference "TnCameraBase" */,
+				B299B7252CB9803B00708DD1 /* XCRemoteSwiftPackageReference "TnIosBase" */,
 			);
 			productRefGroup = B2631F452C8A94FF00B71BAA /* Products */;
 			projectDirPath = "";
@@ -204,9 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B24BB25C2C8A9E4D0045D6FA /* TnCameraAppViewProxyServer.swift in Sources */,
-				B24BB24D2C8A9B3D0045D6FA /* CameraAppView.swift in Sources */,
-				B24BB25A2C8A9E180045D6FA /* TnCameraAppViewProxyServerModel.swift in Sources */,
+				B2D0FB2E2CB75D5300BDDAAA /* TnBinaryCodable.swift in Sources */,
+				B2280AE92C968FA4007250E0 /* TestAsync.swift in Sources */,
+				B256D9762C93C08A004CE461 /* TestAppView.swift in Sources */,
+				B29EB3A62CA407EB00CDB30B /* TestViewUpdates.swift in Sources */,
 				B24BB2522C8A9B3D0045D6FA /* TnCameraMasterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +374,7 @@
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use bluetooth";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Use camera";
 				INFOPLIST_KEY_NSLocationUsageDescription = "Use location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use location";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use microphone";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Use photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -395,6 +409,7 @@
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use bluetooth";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Use camera";
 				INFOPLIST_KEY_NSLocationUsageDescription = "Use location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use location";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use microphone";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Use photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -439,38 +454,47 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B23498842C8AFABA00E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */ = {
+		B24271412CB9523B000149A0 /* XCRemoteSwiftPackageReference "BinaryCodable" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ThinhNguyenRS/TnIosBase";
+			repositoryURL = "https://github.com/christophhagen/BinaryCodable";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.3;
 			};
 		};
-		B23498872C8AFAC800E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */ = {
+		B299B7222CB97FBC00708DD1 /* XCRemoteSwiftPackageReference "TnCameraBase" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ThinhNguyenRS/TnCameraBase";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B299B7252CB9803B00708DD1 /* XCRemoteSwiftPackageReference "TnIosBase" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThinhNguyenRS/TnIosBase";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B23498852C8AFABA00E6EECB /* TnIosBase */ = {
+		B24271422CB9523B000149A0 /* BinaryCodable */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B23498842C8AFABA00E6EECB /* XCRemoteSwiftPackageReference "TnIosBase" */;
+			package = B24271412CB9523B000149A0 /* XCRemoteSwiftPackageReference "BinaryCodable" */;
+			productName = BinaryCodable;
+		};
+		B299B7232CB97FBC00708DD1 /* TnCameraBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B299B7222CB97FBC00708DD1 /* XCRemoteSwiftPackageReference "TnCameraBase" */;
+			productName = TnCameraBase;
+		};
+		B299B7262CB9803B00708DD1 /* TnIosBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B299B7252CB9803B00708DD1 /* XCRemoteSwiftPackageReference "TnIosBase" */;
 			productName = TnIosBase;
-		};
-		B23498882C8AFAC800E6EECB /* TnCameraBase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B23498872C8AFAC800E6EECB /* XCRemoteSwiftPackageReference "TnCameraBase" */;
-			productName = TnCameraBase;
-		};
-		B24BB2322C8A97190045D6FA /* TnCameraBase */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = TnCameraBase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
