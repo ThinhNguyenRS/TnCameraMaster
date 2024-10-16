@@ -15,6 +15,7 @@
 		B2631F4E2C8A950000B71BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2631F4D2C8A950000B71BAA /* Assets.xcassets */; };
 		B2631F512C8A950000B71BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2631F502C8A950000B71BAA /* Preview Assets.xcassets */; };
 		B287A19D2CBE7A8000DF66CA /* TnCameraBase in Frameworks */ = {isa = PBXBuildFile; productRef = B287A19C2CBE7A8000DF66CA /* TnCameraBase */; };
+		B287A1A02CBF556B00DF66CA /* Transcoding in Frameworks */ = {isa = PBXBuildFile; productRef = B287A19F2CBF556B00DF66CA /* Transcoding */; };
 		B299B7272CB9803B00708DD1 /* TnIosBase in Frameworks */ = {isa = PBXBuildFile; productRef = B299B7262CB9803B00708DD1 /* TnIosBase */; };
 		B29EB3A62CA407EB00CDB30B /* TestViewUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29EB3A52CA407EB00CDB30B /* TestViewUpdates.swift */; };
 		B2D0FB2E2CB75D5300BDDAAA /* TnBinaryCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0FB2D2CB75D5300BDDAAA /* TnBinaryCodable.swift */; };
@@ -41,6 +42,7 @@
 				B299B7272CB9803B00708DD1 /* TnIosBase in Frameworks */,
 				B24271432CB9523B000149A0 /* BinaryCodable in Frameworks */,
 				B287A19D2CBE7A8000DF66CA /* TnCameraBase in Frameworks */,
+				B287A1A02CBF556B00DF66CA /* Transcoding in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +156,7 @@
 				B24271422CB9523B000149A0 /* BinaryCodable */,
 				B299B7262CB9803B00708DD1 /* TnIosBase */,
 				B287A19C2CBE7A8000DF66CA /* TnCameraBase */,
+				B287A19F2CBF556B00DF66CA /* Transcoding */,
 			);
 			productName = TnCameraMaster;
 			productReference = B2631F442C8A94FF00B71BAA /* TnCameraMaster.app */;
@@ -188,6 +191,7 @@
 				B24271412CB9523B000149A0 /* XCRemoteSwiftPackageReference "BinaryCodable" */,
 				B299B7252CB9803B00708DD1 /* XCRemoteSwiftPackageReference "TnIosBase" */,
 				B287A19B2CBE7A8000DF66CA /* XCRemoteSwiftPackageReference "TnCameraBase" */,
+				B287A19E2CBF556B00DF66CA /* XCRemoteSwiftPackageReference "Transcoding" */,
 			);
 			productRefGroup = B2631F452C8A94FF00B71BAA /* Products */;
 			projectDirPath = "";
@@ -470,6 +474,14 @@
 				kind = branch;
 			};
 		};
+		B287A19E2CBF556B00DF66CA /* XCRemoteSwiftPackageReference "Transcoding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/finnvoor/Transcoding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 		B299B7252CB9803B00708DD1 /* XCRemoteSwiftPackageReference "TnIosBase" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ThinhNguyenRS/TnIosBase";
@@ -490,6 +502,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B287A19B2CBE7A8000DF66CA /* XCRemoteSwiftPackageReference "TnCameraBase" */;
 			productName = TnCameraBase;
+		};
+		B287A19F2CBF556B00DF66CA /* Transcoding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B287A19E2CBF556B00DF66CA /* XCRemoteSwiftPackageReference "Transcoding" */;
+			productName = Transcoding;
 		};
 		B299B7262CB9803B00708DD1 /* TnIosBase */ = {
 			isa = XCSwiftPackageProductDependency;
