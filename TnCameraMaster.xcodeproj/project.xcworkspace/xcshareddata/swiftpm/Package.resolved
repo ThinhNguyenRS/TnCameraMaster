@@ -1,5 +1,5 @@
 {
-  "originHash" : "86df600504757c382f37b85f33e7a4bf9bf39f2cb4b64a4e83f64df7d852815a",
+  "originHash" : "662c91b1ebfad1f403183c762d11fe2f3ab5bcb59c9ac1c38552843df8954ea4",
   "pins" : [
     {
       "identity" : "binarycodable",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ThinhNguyenRS/TnCameraBase",
       "state" : {
-        "branch" : "main",
-        "revision" : "922d525b4501172cd91cf4736ccdc488a56f9967"
+        "revision" : "52287e80c94d51c4620dc200afb5447e1d9dba48",
+        "version" : "1.0.3"
       }
     },
     {
@@ -24,17 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ThinhNguyenRS/TnIosBase",
       "state" : {
-        "branch" : "main",
-        "revision" : "c1c873da24e3fce521c33d733cfeabaa8e62f021"
-      }
-    },
-    {
-      "identity" : "transcoding",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/finnvoor/Transcoding",
-      "state" : {
-        "revision" : "72fe5ef3054eb0e1639ae9a9b49a92811fb251b2",
-        "version" : "0.0.1"
+        "revision" : "fd9fc0bbd0cddf41f318fe33e6d24d780b26bcc4",
+        "version" : "1.0.3"
       }
     }
   ],

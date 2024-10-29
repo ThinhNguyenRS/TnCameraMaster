@@ -11,7 +11,7 @@ import TnIosBase
 import TnCameraBase
 
 @main
-struct TnCameraMasterApp: App {    
+struct TnCameraMasterApp: App {
     var body: some Scene {
         WindowGroup {
             TnCameraAppView(
